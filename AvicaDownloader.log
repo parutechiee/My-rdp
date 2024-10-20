@@ -1,0 +1,86 @@
+[2024-10-20 11:36:20.279] [debug] [1776] [main.cpp:23] [wWinMain] Running...
+[2024-10-20 11:36:20.280] [debug] [1776] [main.cpp:26] [wWinMain] Create window.
+[2024-10-20 11:36:20.362] [debug] [1776] [mainwindow.cpp:179] [MainWindow::InitWindow] Init window.
+[2024-10-20 11:36:20.362] [debug] [1776] [postevent.cpp:384] [report_install_uninstall_event] Post event: option = install_start   duration = 0s
+[2024-10-20 11:36:22.371] [debug] [1776] [postevent.cpp:513] [report_install_uninstall_event] Post event: install_start end. success
+[2024-10-20 11:36:22.371] [debug] [1776] [mainwindow.cpp:181] [MainWindow::InitWindow] Query installed path.
+[2024-10-20 11:36:22.371] [debug] [1776] [mainwindow.cpp:211] [MainWindow::InitWindow] Old path: 
+[2024-10-20 11:36:22.371] [debug] [1776] [mainwindow.cpp:219] [MainWindow::InitWindow] Set path: C:\Program Files (x86)\Avica
+[2024-10-20 11:36:22.412] [debug] [1776] [main.cpp:34] [wWinMain] Show window.
+[2024-10-20 11:37:16.353] [debug] [1776] [mainwindow.cpp:41] [MainWindow::Notify] Click install.
+[2024-10-20 11:37:16.353] [debug] [1776] [postevent.cpp:384] [report_install_uninstall_event] Post event: option = install_click_start   duration = 0s
+[2024-10-20 11:37:17.825] [debug] [1776] [postevent.cpp:513] [report_install_uninstall_event] Post event: install_click_start end. success
+[2024-10-20 11:37:17.826] [debug] [1776] [mainwindow.cpp:95] [MainWindow::Notify] Create download thread.
+[2024-10-20 11:37:17.826] [debug] [7164] [mainwindow.cpp:417] [MainWindow::ThreadDownloader] Thread start.
+[2024-10-20 11:37:17.826] [debug] [7164] [downloadhelper.cpp:16] [DownloadHelper::DownloadHelper] New helper.
+[2024-10-20 11:37:17.826] [debug] [7164] [mainwindow.cpp:421] [MainWindow::ThreadDownloader] Init config.
+[2024-10-20 11:37:17.826] [debug] [7164] [downloadhelper.cpp:37] [DownloadHelper::init_config] Init config.
+[2024-10-20 11:37:17.826] [debug] [7164] [downloadhelper.cpp:249] [DownloadHelper::get_config] Init config from server.
+[2024-10-20 11:37:18.058] [debug] [7164] [downloadhelper.cpp:319] [DownloadHelper::get_config] Read size = 258
+[2024-10-20 11:37:18.058] [debug] [7164] [downloadhelper.cpp:319] [DownloadHelper::get_config] Read size = 0
+[2024-10-20 11:37:18.058] [debug] [7164] [downloadhelper.cpp:39] [DownloadHelper::init_config] Data: {
+	"thread": 8,
+	"type": 2,
+	"hash": "5d561d48afeca3e1",
+	"urls": [
+		"https://download.raylink.live/web2.0/Avica/Avica_v8.1.1.8.exe",
+		"https://download.avica.link/Avica_v8.1.1.8.exe",
+		"https://www.landray.vip/downloader/Avica_v8.1.1.8.exe"
+	]
+}
+[2024-10-20 11:37:18.058] [debug] [7164] [downloadhelper.cpp:49] [DownloadHelper::init_config] Package: https://download.raylink.live/web2.0/Avica/Avica_v8.1.1.8.exe
+[2024-10-20 11:37:18.058] [debug] [7164] [downloadhelper.cpp:49] [DownloadHelper::init_config] Package: https://download.avica.link/Avica_v8.1.1.8.exe
+[2024-10-20 11:37:18.058] [debug] [7164] [downloadhelper.cpp:49] [DownloadHelper::init_config] Package: https://www.landray.vip/downloader/Avica_v8.1.1.8.exe
+[2024-10-20 11:37:18.058] [debug] [5988] [downloadhelper.cpp:601] [DownloadHelper::sort_address::<lambda_490b4dbfa5ec0a500befad1bc5fdb693>::operator ()] Test: download.raylink.live
+[2024-10-20 11:37:18.112] [debug] [5988] [downloadhelper.cpp:633] [DownloadHelper::sort_address::<lambda_490b4dbfa5ec0a500befad1bc5fdb693>::operator ()] Test success: download.raylink.live 47ms
+[2024-10-20 11:37:18.112] [debug] [4508] [downloadhelper.cpp:601] [DownloadHelper::sort_address::<lambda_490b4dbfa5ec0a500befad1bc5fdb693>::operator ()] Test: download.avica.link
+[2024-10-20 11:37:18.144] [debug] [4508] [downloadhelper.cpp:633] [DownloadHelper::sort_address::<lambda_490b4dbfa5ec0a500befad1bc5fdb693>::operator ()] Test success: download.avica.link 31ms
+[2024-10-20 11:37:18.144] [debug] [6076] [downloadhelper.cpp:601] [DownloadHelper::sort_address::<lambda_490b4dbfa5ec0a500befad1bc5fdb693>::operator ()] Test: www.landray.vip
+[2024-10-20 11:37:18.423] [debug] [6076] [downloadhelper.cpp:633] [DownloadHelper::sort_address::<lambda_490b4dbfa5ec0a500befad1bc5fdb693>::operator ()] Test success: www.landray.vip 281ms
+[2024-10-20 11:37:18.423] [debug] [7164] [downloadhelper.cpp:69] [DownloadHelper::init_config] Server list: download.raylink.live
+[2024-10-20 11:37:18.423] [debug] [7164] [downloadhelper.cpp:69] [DownloadHelper::init_config] Server list: download.avica.link
+[2024-10-20 11:37:18.423] [debug] [7164] [downloadhelper.cpp:69] [DownloadHelper::init_config] Server list: www.landray.vip
+[2024-10-20 11:37:18.423] [debug] [7164] [downloadhelper.cpp:86] [DownloadHelper::start_download] Local path: C:\Users\Paru\Downloads\Avica_Setup_1729404438.exe
+[2024-10-20 11:37:18.425] [debug] [7164] [downloadhelper.cpp:341] [DownloadHelper::get_file_size] Get file size begin.
+[2024-10-20 11:37:19.482] [debug] [7164] [downloadhelper.cpp:419] [DownloadHelper::get_file_size] Get file size end.
+[2024-10-20 11:37:19.482] [debug] [7164] [downloadhelper.cpp:128] [DownloadHelper::start_download] File size: 47365008
+[2024-10-20 11:37:19.482] [debug] [7164] [downloadhelper.cpp:156] [DownloadHelper::start_download] Download range [0-5920625].
+[2024-10-20 11:37:19.482] [debug] [7164] [downloadhelper.cpp:156] [DownloadHelper::start_download] Download range [5920626-11841251].
+[2024-10-20 11:37:19.482] [debug] [6660] [downloadhelper.cpp:425] [DownloadHelper::download_thread] Download from download.raylink.live
+[2024-10-20 11:37:19.483] [debug] [7164] [downloadhelper.cpp:156] [DownloadHelper::start_download] Download range [11841252-17761877].
+[2024-10-20 11:37:19.483] [debug] [7164] [downloadhelper.cpp:156] [DownloadHelper::start_download] Download range [17761878-23682503].
+[2024-10-20 11:37:19.483] [debug] [3244] [downloadhelper.cpp:425] [DownloadHelper::download_thread] Download from download.raylink.live
+[2024-10-20 11:37:19.483] [debug] [7164] [downloadhelper.cpp:156] [DownloadHelper::start_download] Download range [23682504-29603129].
+[2024-10-20 11:37:19.483] [debug] [7164] [downloadhelper.cpp:156] [DownloadHelper::start_download] Download range [29603130-35523755].
+[2024-10-20 11:37:19.483] [debug] [7164] [downloadhelper.cpp:156] [DownloadHelper::start_download] Download range [35523756-41444381].
+[2024-10-20 11:37:19.483] [debug] [6272] [downloadhelper.cpp:425] [DownloadHelper::download_thread] Download from download.raylink.live
+[2024-10-20 11:37:19.483] [debug] [7164] [downloadhelper.cpp:165] [DownloadHelper::start_download] Download range [41444382-47365007].
+[2024-10-20 11:37:19.483] [debug] [7164] [downloadhelper.cpp:168] [DownloadHelper::start_download] Wait for the download to end...
+[2024-10-20 11:37:19.483] [debug] [4604] [downloadhelper.cpp:425] [DownloadHelper::download_thread] Download from download.raylink.live
+[2024-10-20 11:37:19.483] [debug] [1808] [downloadhelper.cpp:425] [DownloadHelper::download_thread] Download from download.raylink.live
+[2024-10-20 11:37:19.483] [debug] [5680] [downloadhelper.cpp:425] [DownloadHelper::download_thread] Download from download.raylink.live
+[2024-10-20 11:37:19.483] [debug] [4000] [downloadhelper.cpp:425] [DownloadHelper::download_thread] Download from download.raylink.live
+[2024-10-20 11:37:19.483] [debug] [992] [downloadhelper.cpp:425] [DownloadHelper::download_thread] Download from download.raylink.live
+[2024-10-20 11:37:28.738] [debug] [5680] [downloadhelper.cpp:550] [DownloadHelper::download_thread] Download from download.raylink.live end.
+[2024-10-20 11:37:28.855] [debug] [3244] [downloadhelper.cpp:550] [DownloadHelper::download_thread] Download from download.raylink.live end.
+[2024-10-20 11:37:29.319] [debug] [4604] [downloadhelper.cpp:550] [DownloadHelper::download_thread] Download from download.raylink.live end.
+[2024-10-20 11:37:30.681] [debug] [4000] [downloadhelper.cpp:550] [DownloadHelper::download_thread] Download from download.raylink.live end.
+[2024-10-20 11:37:30.737] [debug] [6660] [downloadhelper.cpp:550] [DownloadHelper::download_thread] Download from download.raylink.live end.
+[2024-10-20 11:37:31.378] [debug] [992] [downloadhelper.cpp:550] [DownloadHelper::download_thread] Download from download.raylink.live end.
+[2024-10-20 11:37:31.502] [debug] [6272] [downloadhelper.cpp:550] [DownloadHelper::download_thread] Download from download.raylink.live end.
+[2024-10-20 11:37:31.569] [debug] [1808] [downloadhelper.cpp:550] [DownloadHelper::download_thread] Download from download.raylink.live end.
+[2024-10-20 11:37:31.602] [debug] [7164] [downloadhelper.cpp:178] [DownloadHelper::start_download] Download end.
+[2024-10-20 11:37:31.602] [debug] [7164] [downloadhelper.cpp:183] [DownloadHelper::start_download] Calc hash sum.
+[2024-10-20 11:37:31.672] [debug] [7164] [downloadhelper.cpp:209] [DownloadHelper::start_download] Hash sum: local = 5d561d48afeca3e1   server = 5d561d48afeca3e1
+[2024-10-20 11:37:31.672] [debug] [7164] [mainwindow.cpp:460] [MainWindow::ThreadDownloader] Download package completed.
+[2024-10-20 11:37:31.672] [debug] [7164] [downloadhelper.cpp:27] [DownloadHelper::~DownloadHelper] Free helper.
+[2024-10-20 11:37:31.673] [debug] [7164] [mainwindow.cpp:465] [MainWindow::ThreadDownloader] Run package.
+[2024-10-20 11:37:31.673] [debug] [7164] [postevent.cpp:384] [report_install_uninstall_event] Post event: option = download_duration   duration = 14s
+[2024-10-20 11:37:32.640] [debug] [7164] [postevent.cpp:513] [report_install_uninstall_event] Post event: download_duration end. success
+[2024-10-20 11:37:32.640] [debug] [7164] [mainwindow.cpp:486] [MainWindow::ThreadDownloader] Run as administrator.
+[2024-10-20 11:37:33.859] [debug] [7164] [mainwindow.cpp:496] [MainWindow::ThreadDownloader] Wait for the program to exit...
+[2024-10-20 11:37:59.489] [debug] [7164] [mainwindow.cpp:504] [MainWindow::ThreadDownloader] Program exits.
+[2024-10-20 11:37:59.489] [debug] [7164] [mainwindow.cpp:506] [MainWindow::ThreadDownloader] Remove package...
+[2024-10-20 11:37:59.496] [debug] [7164] [mainwindow.cpp:518] [MainWindow::ThreadDownloader] Remove package end.
+[2024-10-20 11:37:59.496] [debug] [7164] [postevent.cpp:384] [report_install_uninstall_event] Post event: option = install_end   duration = 0s
+[2024-10-20 11:38:00.393] [debug] [7164] [postevent.cpp:513] [report_install_uninstall_event] Post event: install_end end. success
